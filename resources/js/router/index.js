@@ -29,7 +29,7 @@ const routes = [
     {
         path: '/chamado',
         name: 'Chamado',
-        component: () => import('../main/components/ChamadoForm.vue'),
+        component: () => import('../main/components/forms/ChamadoForm.vue'),
         meta: {requiresAuth: true}
     },
     {

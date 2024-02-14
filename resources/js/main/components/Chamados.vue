@@ -41,7 +41,7 @@
 
 <script setup>
 import {ref} from 'vue';
-import ChamadoForm from "./ChamadoForm.vue";
+import ChamadoForm from "./forms/ChamadoForm.vue";
 
 const perPage = [
     {value: 10, title: '10'},
